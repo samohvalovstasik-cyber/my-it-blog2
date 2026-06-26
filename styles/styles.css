@@ -208,6 +208,22 @@ table {
     box-shadow: 0 5px 15px rgba(0,216,255,0.4);
 }
 
+.up-button {
+    display: inline-block;
+    background-color: #0f3460;
+    color: #00d8ff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 1px solid #00d8ff;
+}
+
+.up-button:hover {
+    background-color: #00d8ff;
+    color: #1a1a2e;
+}
 
 /* margin – внешний отступ за границей элемента (прозрачный, может быть отрицательным), padding – внутренний отступ внутри элемента (цветной, только ≥ 0).
 Если убрать overflow: auto, контейнер перестанет охватывать плавающую картинку – его высота схлопнется, картинка "выпадет" и наложится на соседние блоки.
